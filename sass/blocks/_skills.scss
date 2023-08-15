@@ -1,0 +1,154 @@
+
+
+.header-skills {
+    margin-top: -30px;
+
+    /* Tablet Big */
+    @media (max-width: 1139px) {
+        margin-top: -12px;
+    }
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        margin-top: -20px;
+    }
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        margin-top: 7px;
+    }
+}
+
+.header-skills__row {
+    display: flex;
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        flex-direction: column;
+        
+    }
+    
+}
+
+.header-skills__text {
+    width: 635px;
+    margin-right: 31px;
+
+    /* Tablet Big */
+    @media (max-width: 1139px) {
+        width: 493px;
+        margin-right: 30px;
+    }
+
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        width: 354px;
+    }
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        width: 290px;
+        margin-bottom: 30px;
+    }
+}
+
+.header-skills__title{
+    margin-bottom: 30px;
+   
+    /* Tablet Big */
+    @media (max-width: 1139px) {
+        margin-bottom: 20px;
+    }
+}
+
+.h3-title {
+    font-size: 42px;
+    font-weight: 700;
+
+    /* Tablet Big */
+    @media (max-width: 1139px) {
+        font-size: 32px;
+    }
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        font-size: 24px;
+    }
+}
+
+.header-skills__list {
+    font-size: 22px;
+    font-weight: 400;
+    li{
+        margin-bottom: 10px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+
+    /* Tablet Big */
+    @media (max-width: 1139px) {
+        font-size: 18px;
+    }
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        font-size: 16px;
+    }
+}
+
+.header-skills__list li:before{
+     content: '\2014';
+     margin-right: 5px;
+    /* Tablet */
+     @media (max-width: 899px) {
+         display: none;
+     }
+}
+
+.header-skills__social-icon{
+    margin-bottom: 20px;
+
+    /* Tablet Big */
+    @media (max-width: 1139px) {
+        .social{
+            width: 320px;
+        }
+        
+    }
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        .social{
+            width: 271px;
+        }
+    }
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+    
+    /* Tablet */
+    @media (max-width: 899px) {
+        width: 271px;
+        a{
+            width: 38px;
+            height: 38px;
+        }
+    }
+}
+
+.link {
+    color: #1A71D2;
+    font-size: 22px;
+    font-weight: 400;
+    /* Tablet */
+    @media (max-width: 899px) {
+        font-size: 18px;
+    }
+}
+
+

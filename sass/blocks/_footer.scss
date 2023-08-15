@@ -1,0 +1,47 @@
+.footer{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-color:#333;
+
+    /* Tablet Bg */
+    @media (max-width: 1139px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+.footer p:first-child{
+    color: #FFF;
+    line-height: 1.4;
+    margin-bottom: 10px;
+
+   
+}
+
+.footer p:last-child{
+    color: #B0B0B0;
+    line-height: 1.5;
+    a{
+        color: #FFF;
+        line-height: 1.5;
+        text-decoration-line: underline;
+    }
+
+    /* Tablet Big */
+    @media (max-width: 1139px) {
+        font-size: 14px;
+    }
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        span{
+            display: block;
+            margin-top: 15px;
+        }
+    }
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        width: 270px
+    }
+}
