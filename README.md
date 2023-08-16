@@ -1,4 +1,4 @@
 ## Проект “Портфолио”.
 -Мобильная адаптивность;
 -JS
-[посмотрите](https://github.com/Marina21081995/Portfolio)
+[посмотрите](https://marina21081995.github.io/Portfolio/)
